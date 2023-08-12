@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  /* background: #1B244A; */
+  background-image: url("https://media.giphy.com/media/VI2UC13hwWin1MIfmi/giphy.gif");
+  background-size: cover;
+  font-family: "Orbitron", sans-serif;
+  color: #eeeeee;
+  font-size: 45;
+  text-align: center;
+}
+h3 {
+  margin-top: 100px;
+  font-size: 70px;
+  text-shadow: 0 0 15px red;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+p {
+  margin: 50px auto;
+  background: #080001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  font-family: CursedTimer;
+  font-size: 160;
+  color: #4f6bf9;
+  border-radius: 14px;
+  text-shadow: 0 0 15px red;
+}
+
+@font-face {
+  src: url("CursedTimerUlil-Aznm.ttf");
+  font-family: CursedTimer;
+}
+button {
+  border: 5px solid rgb(38, 62, 147);
+  background: #d4a7af;
+  color: rgb(14, 22, 66);
+  font-family: CursedTimer;
+  font-size: 50px;
+  padding: 20px;
+  border-radius: 14px;
+  text-shadow: 0 0 15px yellow;
+}
+.item {
+  background-size: cover;
+}
+#new {
+  margin-top: 20px;
+  text-shadow: 0 0 15px yellow;
+}

@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <body>
+        <div class="container">
+            <div class="item">
+                <h3>HOME</h3>
+                <p id="count1-el">0</p>
+                <button onclick="incrementOne()">+1</button>
+                <button onclick="incrementTwo()">+2</button>
+                <button onclick="incrementThree()">+3</button>
+            </div>
+            <div class="item">
+                <h3>GUEST</h3>
+                <p id="count2-el">0</p>
+                <button onclick="incrementGone()">+1</button>
+                <button onclick="incrementGtwo()">+2</button>
+                <button onclick="incrementGthree()">+3</button>
+            </div>
+        </div>
+        <button onclick="newgame()" id="new">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
