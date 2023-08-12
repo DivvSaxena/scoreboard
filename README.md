@@ -1,5 +1,5 @@
 # SCOREBOARD
-<img src=".images/scoreboard-divv.jpg" alt="demonstration of the homepage of my project" width="100px">
+<img src="https://i.ibb.co/g95C2jy/scoreboard-divv.jpg" alt="demonstration of the homepage of my project" width="500px"/>
 ## Description
 This project showcases my skills in web development, particularly in working with the Document Object Model (DOM), implementing event listeners, manipulating textContent, and creating an appealing design.
 
